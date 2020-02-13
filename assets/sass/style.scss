@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Chewy', cursive;*/
+}
+
+#Exercices
+{
+    text-align: center;
+    background-color: black;
+    font-family: 'Chewy', cursive;
+}
+
+
+#MenuHaut
+{
+    background-color:rgb(106,132,183);
+    height: 5em;
+    font-family: 'Chewy', cursive;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline;
+    margin-right: 2em;
+
+}
+
+
+#BioFoodingText1
+{
+color: rgb(250, 200, 0);
+margin-left: 1.6em;
+font-family: 'Chewy', cursive;
+}
+
+#BioFoodingText2
+{
+color: rgb(250, 200, 0);
+margin-left: 1em;
+font-family: 'Chewy', cursive;
+}
+
+#ImageFeuille
+{
+    margin-left: 2.0em;
+}
+
+
+.navbar
+{
+    float: right;
+    margin-top: -4em;
+}
+
+.navbar a
+{
+    text-decoration:none;
+    color: white;
+}
+
+
+.SectionBienvenue
+{
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-family: 'Chewy', cursive;
+height: 52.0em;
+width: 100%;
+background-image: url(/assets/img/banniere001.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+box-shadow: inset rgb(250, 200, 0) 0em 0em 2em 0em;
+
+}
+
+
+
+#BlockBienvenue
+{
+    text-align: center;
+}
+
+#ImageBienvenue
+{
+    width: 32em;
+    height: 27em;
+}
+#BienvenueText
+{
+color: white;
+padding-top: 2em;
+/*margin-top: 1.3em;*/
+}
+
+#NouveauRestaurantText
+{
+color: white;
+}
+
+.SectionBasFull
+{
+    /*height: 80em;*/
+    background-image: url(/assets/img/backgroundf.bmp);
+}
+
+.SectionBasMilieuJaune
+{
+    /*
+    margin-left: 16em;
+    margin-right: 16em;
+    */
+    /*height: 80em;*/
+    background-color: rgb(250, 200, 0);
+}
+
+.VideoIntro
+{
+    box-shadow: 10px 5px 5px black;
+    /*
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-right: 8em;
+    */
+}
+
+.ParagrapheVideo
+{
+    /*
+    margin-top: 1.5em;
+    */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CadreBleu
+{
+background-color: rgb(106,132,183);
+border-style: solid;
+border-radius: 2em;
+}
+
+.CadreBlanc
+{
+background-color: white;
+}
+
+.TextCardDroite
+{
+    color: rgb(106,132,183);
+}
+
+.FooterBleu
+{
+    background-color: rgb(106,132,183);
+}
+
+.FooterText
+{
+    font-family: 'Chewy', cursive;
+    color: white;
+}
+
+.FooterLogo
+{
+    height: 3em!important;
+    width: 3em!important;
+}
+
+.TextCartes
+{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Chewy', cursive;   
+}
+
+.PrixCartes
+{
+    color: white;
+    background-color: blue;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    border-color: blue;
+}
+
+.PhotosText
+{
+    background-color: rgba(46, 116, 207, 0.5);
+}
+
+.CadrePhoto
+{
+-webkit-box-shadow: 0px 0px 66px 9px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 66px 9px rgba(0,0,0,1);
+box-shadow: 0px 0px 66px 9px rgba(0,0,0,1);
+
+border-style: solid;
+border-color: rgb(106,132,183);
+border-radius: 0.2em !important;
+}
+
+.tocard
+{
+    margin-top: 2em!important;
+}
+
+
+.SectionRestaurantCarteHoraire
+{
+    background-image: url(/assets/img/restau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.TextCartes
+{
+    font-size: 1.5em;
+    color: rgb(250, 200, 0);
+    font-family: 'Chewy', cursive;
+}
+
+.CadreHoraireCarte
+{
+    border-style: solid!important;
+    border-color: white!important;
+    border-radius: 5em!important;
+    background-color:rgba(255,255,255,0.7)!important;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+}
+
+.SectionContactBackground
+{
+background-image: url(/assets/img/image_header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.CadreContact
+{
+    font-family: 'Chewy', cursive!important;
+    border-style: solid!important;
+    border-width: 0.01em;
+    border-radius: 1.5em!important;
+    background-color:rgba(255,255,255,0.7)!important;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)!important;
+}
